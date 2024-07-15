@@ -16,7 +16,7 @@
 ### Finally run the example:
 ```uvicorn main:app --port 5000```
 
-### POST localhost:5000/notify to Create data: 
+### POST 'localhost:5000/notify' to Create data: 
 req body:
 ```
   {
@@ -25,7 +25,7 @@ req body:
   }
 ```
 
-### GET /notifications/Lucas to Retrieve data:
+### GET 'localhost:5000/notifications/Lucas' to Retrieve data:
 returns
 ```
   [
